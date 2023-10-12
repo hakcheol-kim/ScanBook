@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD7E6D842AD7C76600FBE97C /* ScanBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7E6D832AD7C76600FBE97C /* ScanBookApp.swift */; };
+		FD7E6D862AD7C76600FBE97C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7E6D852AD7C76600FBE97C /* MainView.swift */; };
+		FD7E6D882AD7C76700FBE97C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD7E6D872AD7C76700FBE97C /* Assets.xcassets */; };
+		FD7E6D8B2AD7C76700FBE97C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD7E6D8A2AD7C76700FBE97C /* Preview Assets.xcassets */; };
+		FD7E6D8D2AD7C76700FBE97C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7E6D8C2AD7C76700FBE97C /* Persistence.swift */; };
+		FD7E6D902AD7C76700FBE97C /* ScanBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD7E6D8E2AD7C76700FBE97C /* ScanBook.xcdatamodeld */; };
+		FD7E6D9A2AD7C76700FBE97C /* ScanBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7E6D992AD7C76700FBE97C /* ScanBookTests.swift */; };
+		FD7E6DA42AD7C76700FBE97C /* ScanBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7E6DA32AD7C76700FBE97C /* ScanBookUITests.swift */; };
+		FD7E6DA62AD7C76700FBE97C /* ScanBookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7E6DA52AD7C76700FBE97C /* ScanBookUITestsLaunchTests.swift */; };
+		FD7E6DB32AD7C81C00FBE97C /* AppStateVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7E6DB22AD7C81C00FBE97C /* AppStateVM.swift */; };
+		FD7E6DB92AD7C96900FBE97C /* CameraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7E6DB62AD7C96900FBE97C /* CameraModel.swift */; };
+		FD7E6DBA2AD7C96900FBE97C /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7E6DB72AD7C96900FBE97C /* CameraView.swift */; };
+		FD7E6DBB2AD7C96900FBE97C /* CameraOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7E6DB82AD7C96900FBE97C /* CameraOverlayView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD7E6D962AD7C76700FBE97C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD7E6D782AD7C76600FBE97C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD7E6D7F2AD7C76600FBE97C;
+			remoteInfo = ScanBook;
+		};
+		FD7E6DA02AD7C76700FBE97C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD7E6D782AD7C76600FBE97C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD7E6D7F2AD7C76600FBE97C;
+			remoteInfo = ScanBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD7E6D802AD7C76600FBE97C /* ScanBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScanBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD7E6D832AD7C76600FBE97C /* ScanBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanBookApp.swift; sourceTree = "<group>"; };
+		FD7E6D852AD7C76600FBE97C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		FD7E6D872AD7C76700FBE97C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD7E6D8A2AD7C76700FBE97C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FD7E6D8C2AD7C76700FBE97C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		FD7E6D8F2AD7C76700FBE97C /* ScanBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ScanBook.xcdatamodel; sourceTree = "<group>"; };
+		FD7E6D952AD7C76700FBE97C /* ScanBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScanBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD7E6D992AD7C76700FBE97C /* ScanBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanBookTests.swift; sourceTree = "<group>"; };
+		FD7E6D9F2AD7C76700FBE97C /* ScanBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScanBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD7E6DA32AD7C76700FBE97C /* ScanBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanBookUITests.swift; sourceTree = "<group>"; };
+		FD7E6DA52AD7C76700FBE97C /* ScanBookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanBookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FD7E6DB22AD7C81C00FBE97C /* AppStateVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateVM.swift; sourceTree = "<group>"; };
+		FD7E6DB62AD7C96900FBE97C /* CameraModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraModel.swift; sourceTree = "<group>"; };
+		FD7E6DB72AD7C96900FBE97C /* CameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		FD7E6DB82AD7C96900FBE97C /* CameraOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraOverlayView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD7E6D7D2AD7C76600FBE97C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7E6D922AD7C76700FBE97C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7E6D9C2AD7C76700FBE97C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD7E6D772AD7C76600FBE97C = {
+			isa = PBXGroup;
+			children = (
+				FD7E6D822AD7C76600FBE97C /* ScanBook */,
+				FD7E6D982AD7C76700FBE97C /* ScanBookTests */,
+				FD7E6DA22AD7C76700FBE97C /* ScanBookUITests */,
+				FD7E6D812AD7C76600FBE97C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD7E6D812AD7C76600FBE97C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD7E6D802AD7C76600FBE97C /* ScanBook.app */,
+				FD7E6D952AD7C76700FBE97C /* ScanBookTests.xctest */,
+				FD7E6D9F2AD7C76700FBE97C /* ScanBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD7E6D822AD7C76600FBE97C /* ScanBook */ = {
+			isa = PBXGroup;
+			children = (
+				FD7E6D832AD7C76600FBE97C /* ScanBookApp.swift */,
+				FD7E6D852AD7C76600FBE97C /* MainView.swift */,
+				FD7E6DB22AD7C81C00FBE97C /* AppStateVM.swift */,
+				FD7E6DB42AD7C93F00FBE97C /* Views */,
+				FD7E6D872AD7C76700FBE97C /* Assets.xcassets */,
+				FD7E6D8C2AD7C76700FBE97C /* Persistence.swift */,
+				FD7E6D8E2AD7C76700FBE97C /* ScanBook.xcdatamodeld */,
+				FD7E6D892AD7C76700FBE97C /* Preview Content */,
+			);
+			path = ScanBook;
+			sourceTree = "<group>";
+		};
+		FD7E6D892AD7C76700FBE97C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FD7E6D8A2AD7C76700FBE97C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FD7E6D982AD7C76700FBE97C /* ScanBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD7E6D992AD7C76700FBE97C /* ScanBookTests.swift */,
+			);
+			path = ScanBookTests;
+			sourceTree = "<group>";
+		};
+		FD7E6DA22AD7C76700FBE97C /* ScanBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD7E6DA32AD7C76700FBE97C /* ScanBookUITests.swift */,
+				FD7E6DA52AD7C76700FBE97C /* ScanBookUITestsLaunchTests.swift */,
+			);
+			path = ScanBookUITests;
+			sourceTree = "<group>";
+		};
+		FD7E6DB42AD7C93F00FBE97C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FD7E6DB52AD7C95300FBE97C /* Camera */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FD7E6DB52AD7C95300FBE97C /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				FD7E6DB62AD7C96900FBE97C /* CameraModel.swift */,
+				FD7E6DB82AD7C96900FBE97C /* CameraOverlayView.swift */,
+				FD7E6DB72AD7C96900FBE97C /* CameraView.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD7E6D7F2AD7C76600FBE97C /* ScanBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD7E6DA92AD7C76700FBE97C /* Build configuration list for PBXNativeTarget "ScanBook" */;
+			buildPhases = (
+				FD7E6D7C2AD7C76600FBE97C /* Sources */,
+				FD7E6D7D2AD7C76600FBE97C /* Frameworks */,
+				FD7E6D7E2AD7C76600FBE97C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScanBook;
+			productName = ScanBook;
+			productReference = FD7E6D802AD7C76600FBE97C /* ScanBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD7E6D942AD7C76700FBE97C /* ScanBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD7E6DAC2AD7C76700FBE97C /* Build configuration list for PBXNativeTarget "ScanBookTests" */;
+			buildPhases = (
+				FD7E6D912AD7C76700FBE97C /* Sources */,
+				FD7E6D922AD7C76700FBE97C /* Frameworks */,
+				FD7E6D932AD7C76700FBE97C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD7E6D972AD7C76700FBE97C /* PBXTargetDependency */,
+			);
+			name = ScanBookTests;
+			productName = ScanBookTests;
+			productReference = FD7E6D952AD7C76700FBE97C /* ScanBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD7E6D9E2AD7C76700FBE97C /* ScanBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD7E6DAF2AD7C76700FBE97C /* Build configuration list for PBXNativeTarget "ScanBookUITests" */;
+			buildPhases = (
+				FD7E6D9B2AD7C76700FBE97C /* Sources */,
+				FD7E6D9C2AD7C76700FBE97C /* Frameworks */,
+				FD7E6D9D2AD7C76700FBE97C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD7E6DA12AD7C76700FBE97C /* PBXTargetDependency */,
+			);
+			name = ScanBookUITests;
+			productName = ScanBookUITests;
+			productReference = FD7E6D9F2AD7C76700FBE97C /* ScanBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD7E6D782AD7C76600FBE97C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FD7E6D7F2AD7C76600FBE97C = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					FD7E6D942AD7C76700FBE97C = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = FD7E6D7F2AD7C76600FBE97C;
+					};
+					FD7E6D9E2AD7C76700FBE97C = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = FD7E6D7F2AD7C76600FBE97C;
+					};
+				};
+			};
+			buildConfigurationList = FD7E6D7B2AD7C76600FBE97C /* Build configuration list for PBXProject "ScanBook" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD7E6D772AD7C76600FBE97C;
+			productRefGroup = FD7E6D812AD7C76600FBE97C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD7E6D7F2AD7C76600FBE97C /* ScanBook */,
+				FD7E6D942AD7C76700FBE97C /* ScanBookTests */,
+				FD7E6D9E2AD7C76700FBE97C /* ScanBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD7E6D7E2AD7C76600FBE97C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD7E6D8B2AD7C76700FBE97C /* Preview Assets.xcassets in Resources */,
+				FD7E6D882AD7C76700FBE97C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7E6D932AD7C76700FBE97C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7E6D9D2AD7C76700FBE97C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD7E6D7C2AD7C76600FBE97C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD7E6DBB2AD7C96900FBE97C /* CameraOverlayView.swift in Sources */,
+				FD7E6D8D2AD7C76700FBE97C /* Persistence.swift in Sources */,
+				FD7E6DBA2AD7C96900FBE97C /* CameraView.swift in Sources */,
+				FD7E6D902AD7C76700FBE97C /* ScanBook.xcdatamodeld in Sources */,
+				FD7E6DB92AD7C96900FBE97C /* CameraModel.swift in Sources */,
+				FD7E6D862AD7C76600FBE97C /* MainView.swift in Sources */,
+				FD7E6DB32AD7C81C00FBE97C /* AppStateVM.swift in Sources */,
+				FD7E6D842AD7C76600FBE97C /* ScanBookApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7E6D912AD7C76700FBE97C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD7E6D9A2AD7C76700FBE97C /* ScanBookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7E6D9B2AD7C76700FBE97C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD7E6DA62AD7C76700FBE97C /* ScanBookUITestsLaunchTests.swift in Sources */,
+				FD7E6DA42AD7C76700FBE97C /* ScanBookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD7E6D972AD7C76700FBE97C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD7E6D7F2AD7C76600FBE97C /* ScanBook */;
+			targetProxy = FD7E6D962AD7C76700FBE97C /* PBXContainerItemProxy */;
+		};
+		FD7E6DA12AD7C76700FBE97C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD7E6D7F2AD7C76600FBE97C /* ScanBook */;
+			targetProxy = FD7E6DA02AD7C76700FBE97C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FD7E6DA72AD7C76700FBE97C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD7E6DA82AD7C76700FBE97C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD7E6DAA2AD7C76700FBE97C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScanBook/Preview Content\"";
+				DEVELOPMENT_TEAM = 45S96ZUUPU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "스캔을 하기위해 카메라 권한을 허용해주세요.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.random2u.japanapp.ios.ScanBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD7E6DAB2AD7C76700FBE97C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScanBook/Preview Content\"";
+				DEVELOPMENT_TEAM = 45S96ZUUPU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "스캔을 하기위해 카메라 권한을 허용해주세요.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.random2u.japanapp.ios.ScanBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FD7E6DAD2AD7C76700FBE97C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 45S96ZUUPU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.random2u.japanapp.ios.ScanBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScanBook.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScanBook";
+			};
+			name = Debug;
+		};
+		FD7E6DAE2AD7C76700FBE97C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 45S96ZUUPU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.random2u.japanapp.ios.ScanBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScanBook.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScanBook";
+			};
+			name = Release;
+		};
+		FD7E6DB02AD7C76700FBE97C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 45S96ZUUPU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.random2u.japanapp.ios.ScanBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScanBook;
+			};
+			name = Debug;
+		};
+		FD7E6DB12AD7C76700FBE97C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 45S96ZUUPU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.random2u.japanapp.ios.ScanBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScanBook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD7E6D7B2AD7C76600FBE97C /* Build configuration list for PBXProject "ScanBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD7E6DA72AD7C76700FBE97C /* Debug */,
+				FD7E6DA82AD7C76700FBE97C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD7E6DA92AD7C76700FBE97C /* Build configuration list for PBXNativeTarget "ScanBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD7E6DAA2AD7C76700FBE97C /* Debug */,
+				FD7E6DAB2AD7C76700FBE97C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD7E6DAC2AD7C76700FBE97C /* Build configuration list for PBXNativeTarget "ScanBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD7E6DAD2AD7C76700FBE97C /* Debug */,
+				FD7E6DAE2AD7C76700FBE97C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD7E6DAF2AD7C76700FBE97C /* Build configuration list for PBXNativeTarget "ScanBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD7E6DB02AD7C76700FBE97C /* Debug */,
+				FD7E6DB12AD7C76700FBE97C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FD7E6D8E2AD7C76700FBE97C /* ScanBook.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FD7E6D8F2AD7C76700FBE97C /* ScanBook.xcdatamodel */,
+			);
+			currentVersion = FD7E6D8F2AD7C76700FBE97C /* ScanBook.xcdatamodel */;
+			path = ScanBook.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FD7E6D782AD7C76600FBE97C /* Project object */;
+}
